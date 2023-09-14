@@ -1,8 +1,10 @@
-package br.com.lista_de_espera;
+package br.com.lista_de_espera.mvc.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import br.com.lista_de_espera.R;
 
 public class MainActivity extends AppCompatActivity {
 
