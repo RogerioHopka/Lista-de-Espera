@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Lista-de-Espera</string>
+    <string name="text_titulo">Entre na Lista de Espera</string>
+    <string name="txt_hint_primeiro_nome">Primeiro Nome</string>
+    <string name="txt_hint_sobre_nome">Sobre Nome</string>
+    <string name="txt_hint_nome_do_curso_desejado">Nome do Curso Desejado</string>
+    <string name="txt_hint_telefone_de_contato">Telefone de Contato</string>
+    <string name="txt_buttom_limpar">LIMPAR</string>
+    <string name="txt_buttom_salvar">SALVAR</string>
+    <string name="txt_buttom_finalizar">FINALIAR</string>
+
 </resources>
