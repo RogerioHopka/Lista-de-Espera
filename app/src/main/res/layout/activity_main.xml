@@ -9,7 +9,7 @@
     tools:context=".mvc.view.MainActivity">
 
     <TextView
-        android:id="@+id/textTitulo"
+        android:id="@+id/textTituloEntreNaListaDeEspera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitulo" />
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEntreNaListaDeEspera" />
 
     <EditText
         android:id="@+id/editTextSobreNome"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEntreNaListaDeEspera"
         app:layout_constraintVertical_bias="0.128" />
 
 
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEntreNaListaDeEspera"
         app:layout_constraintVertical_bias="0.242" />
 
     <EditText
@@ -89,15 +89,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/textTituloEntreNaListaDeEspera"
         app:layout_constraintVertical_bias="0.373" />
 
     <Button
         android:id="@+id/buttonLimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_buttom_limpar"
         android:background="@color/colorBotton"
+        android:text="@string/txt_buttom_limpar"
         app:layout_constraintBottom_toTopOf="@+id/buttonFinalizar"
         app:layout_constraintEnd_toStartOf="@+id/buttonSalvar"
         app:layout_constraintHorizontal_bias="0.37"
@@ -106,14 +106,12 @@
         app:layout_constraintVertical_bias="0.433" />
 
 
-
-
     <Button
         android:id="@+id/buttonSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_buttom_salvar"
         android:background="@color/colorBotton"
+        android:text="@string/txt_buttom_salvar"
         app:layout_constraintBottom_toTopOf="@+id/buttonFinalizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
